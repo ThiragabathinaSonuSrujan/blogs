@@ -1,36 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Example</title>
 </head>
+
 <body>
-    <form >
-        <label for="username">Username</label>
-        <input type="text" placeholder="Enter Username" required/>
-        <label for="email">EMail</label>
-        <input type="email" placeholder="Enter email" required/>
-        <label for="number">Mobile Number</label>
-        <input type="number" placeholder="Enter MobileNumber" required/>
-        <label for="password">Password</label>
-        <input type="password" placeholder="Enter passcode" required/>
-        <input type="file">
-        <input type="radio">
-        <input type="checkbox">
-        <input type="date" min="2000-01-01" max="2027-01-01">
-        <input type="time">
-        <button>Submit</button>
-    </form>
-    <!-- <audio src=""></audio>
-    <audio src=""></audio> -->
-    <audio controls>
-    </audio>
 
-    <video controls width="50%">
-        <source src="./stuart--dave--official-teaser-trailer-2015-despicable-me-3---minions.mp4" type="video/mp4">
-    </video>
+<form>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1clWprLC5Ak?si=dBBRvs83BcL6dIxd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<label for="username">Username</label>
+<input type="text" id="username" placeholder="Enter Username" required>
+
+<br><br>
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter Email" required>
+
+<br><br>
+
+<label for="mobile">Mobile Number</label>
+<input type="tel" id="mobile" placeholder="Enter Mobile Number" required>
+
+<br><br>
+
+<label for="password">Password</label>
+<input type="password" id="password" placeholder="Enter Password" required>
+
+<br><br>
+
+<label>Upload File</label>
+<input type="file">
+
+<br><br>
+
+<label>Gender</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+<br><br>
+
+<label>
+<input type="checkbox"> I agree to terms
+</label>
+
+<br><br>
+
+<label>Date</label>
+<input type="date" min="2000-01-01" max="2027-01-01">
+
+<br><br>
+
+<label>Time</label>
+<input type="time">
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<br>
+
+<audio controls>
+<source src="audio.mp3" type="audio/mp3">
+</audio>
+
+<br><br>
+
+<video controls width="50%">
+<source src="./stuart--dave--official-teaser-trailer-2015-despicable-me-3---minions.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/1clWprLC5Ak"
+title="YouTube video player"
+allowfullscreen>
+</iframe>
+
 </body>
 </html>
