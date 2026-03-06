@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.total{
+        background-image: url(https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;  
+        background-position: center;
+        font-family: "Roboto", sans-serif;
+
+}
+#one {
+    text-align: center;
+    text-decoration: underline red 3px double;
+    /*overline line-through*/
+    text-transform: capitalize;
+    text-shadow: 2px 3px 4px blue;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.content{
+line-height: 40px;
+}
